@@ -11,54 +11,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <title>Andres Sanchez</title>
+    <script src="https://kit.fontawesome.com/016a486987.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
+    <header class="header">
+        <img class="header--img" src="https://res.cloudinary.com/drqkwjiig/image/upload/v1667004598/journal/gzhexpwblfheyoaeozn5.png"  alt="Logo">
+        <a href="./"> Home </a>
+        <nav class="header--nav">
+            <ul class="header--list">
                 <li>
-                    <a href="./contact">Contact</a>
+                    <a href="./contact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="./blog">Blog</a>
+                    <a href="./blog.html">Blog</a>
                 </li>
                 <li>
-                    <a href="./projects">Projects</a>
+                    <a href="./projects.html">Projects</a>
                 </li>
                 <li>
-                    <a href="./about">About</a>
+                    <a href="./about.html">About</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGDIuPre9bbqw/profile-displayphoto-shrink_200_200/0/1630019692018?e=1672272000&v=beta&t=JilWE6Z6y9vlx_aQrCIwL4qCIpBDB494lYh7bsmqDnc"
-        alt="foto perfil">
+    <main class="main">
+       <div class="main--container">
+            <div class="img--container">
+                <img class="main--img" src="https://media-exp1.licdn.com/dms/image/C4D03AQGDIuPre9bbqw/profile-displayphoto-shrink_200_200/0/1630019692018?e=1672272000&v=beta&t=JilWE6Z6y9vlx_aQrCIwL4qCIpBDB494lYh7bsmqDnc"
+                alt="foto perfil">
+            </div>
+        <div class="main--info">
+            <h2 class="info--name">Andres Sanchez</h2>
+            <p class="info--description"> description: Lorem ipsum, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nulla veritatis vero minima quam fugiat accusantium consectetur dicta ipsa? Quibusdam placeat corrupti ab porro. Ipsa libero vero esse minus quidem! dolor sit amet consectetur adipisicing elit.</p>
+       
+            <div class="main--links">
+                <a class="main--link main--link__salmon" href="./contact.html"> Contacto </a>
+                <a class="main--link main--link__stateblue" href="./about.html"> Acerca de</a>
+            </div>
+            <div class="main--social-media">
+                <h2>Mis Redes Sociales</h2>
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                        <a href=""><i class="fa-brands fa-instagram"></i> instagram</a>
+                    </li>
+                
+                </ul>
+            </div>
+        </div>
+       </div>
 
-        <p>
-            description
-        </p>
-
-        <h2>Andres Sanchez</h2>
+       
+        
+        
         <ul>
             <li>
-                HTML
+                <img src="" alt="React">
+                <p>React</p>
             </li>
             <li>
-                CSS
+                <img src="" alt="JavaScript">
+                <p>JavaScript</p>
             </li>
             <li>
-                JavaScript
+                <img src="" alt="PHP">
+                <p>PHP</p>
             </li>
             <li>
-                PHP
-            </li>
-            <li>
-                NodeJs
-            </li>
-            <li>
-                React
+                <img src="" alt="NodeJs">
+                <p>NodeJs</p>
             </li>
 
         </ul>
